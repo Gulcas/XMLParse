@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
                             String country = xmlRowData.getCountry();
                             String telephone = xmlRowData.getTelephons();
 
-                            OutputData += "Pola danych : \n\n" + company + " | " + address
+                            OutputData += "Pola danych : \n\n" + company + " | " + address + " | "
                                     + id + " | " + " | " + companyid + " | " + city + " | " + state + " | "
                                     + zipcode + " | " + country + " | " + telephone + " | " + date + " |\n\n";
                         }
