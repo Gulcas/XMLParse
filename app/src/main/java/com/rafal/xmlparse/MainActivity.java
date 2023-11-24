@@ -65,8 +65,8 @@ public class MainActivity extends AppCompatActivity {
                             String telephone = xmlRowData.getTelephons();
 
                             OutputData += "Pola danych : \n\n" + company + " | " + address
-                                    + " | " + city + " | " + state + " | " + zipcode + " | "
-                                    + country + " | " + telephone + " | " + date + " |\n\n";
+                                    + id + " | " + " | " + companyid + " | " + city + " | " + state + " | "
+                                    + zipcode + " | " + country + " | " + telephone + " | " + date + " |\n\n";
                         }
                         output.setText(OutputData);
                     } else {
